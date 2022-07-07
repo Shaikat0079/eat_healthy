@@ -9,7 +9,7 @@ body {
 }
 
 .description h1,
-p {
+.description p {
     color: #576F72;
 }
 
@@ -40,48 +40,13 @@ p {
     font-weight: bold;
 }
 
-.about {
-    background-image: url(images/7.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: space-around;
-}
 
-.half-width {
-    width: 40%;
-    padding: 0 5%;
-}
-
-.half-width img {
-    width: 80%;
-    padding: 20%30%;
-    height: 50.25%;
-}
-
-.half-width h2 {
-    font-size: 50px;
-    margin-top: 200px;
-}
-
-.half-width p {
-    font-size: 18px;
-    text-align: left;
-    margin-bottom: 80px;
-}
-
-.half-width h2 {
-    color: #576F72;
-}
 
 .recipies h2,
-p {
+.recipies p {
     text-align: center;
 }
 
-.about p {
-    color: black;
-}
 
 .recipies h2 {
     font-size: 50px;
@@ -156,4 +121,45 @@ footer h2 {
 footer p {
     font-size: 20px;
     color: whitesmoke;
+}
+
+.about {
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 100px 0;
+}
+
+.about-us {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 450px;
+    /* width: 50%; */
+}
+
+.half-width img {
+    width: 80%;
+    height: 100%;
+}
+
+.half-width {
+    margin-top: 60px;
+}
+
+.half-width h2 {
+    margin-top: 100px;
+    color: #2C3639;
+    font-size: 50px;
+}
+
+.half-width h2,
+.half-width p,
+.half-width a {
+    margin-left: 250px;
+}
+
+.half-width p {
+    font-size: 20px;
+    margin-bottom: 60px;
 }
